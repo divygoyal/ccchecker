@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.1;netstandard2.0</TargetFrameworks>
+    <AssemblyName>CreditCardValidator</AssemblyName>
+    <RootNamespace>CreditCardValidator</RootNamespace>
+    <PackageId>CreditCardValidator</PackageId>
+    <Product>CreditCardValidator</Product>
+    <Version>3.0.1</Version>
+    <FileVersion>3.0.1.0</FileVersion>
+    <AssemblyVersion>3.0.1.0</AssemblyVersion>
+    <title>Credit Card Validator</title>
+    <Copyright>Copyright © Gustavo Frizzo 2022</Copyright>
+    <Description>CreditCardValidator helps you validate credit card numbers, identify its issuer (Visa, Mastercard, etc), verify length, prefixes and check it through the Luhn algorithm. It can also generate random credit card numbers for testing purposes.</Description>
+    <summary>CreditCardValidator helps you validate credit card numbers, identify its issuer (Visa, Mastercard, etc), verify length, prefixes and check it through the Luhn algorithm.</summary>
+    <Company />
+    <Authors>Gustavo Frizzo and Contributors</Authors>
+    <owners>gustavo.frizzo</owners>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/gustavofrizzo/CreditCardValidator</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/gustavofrizzo/CreditCardValidator</RepositoryUrl>
+    <PackageTags>Credit Card Creditcard Check Validator Validations Luhn</PackageTags>
+    <PackageReleaseNotes>Removing support for .NET 4 framework.</PackageReleaseNotes>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
